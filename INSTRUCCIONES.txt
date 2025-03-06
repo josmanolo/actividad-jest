@@ -1,0 +1,26 @@
+🚀 Pasos para ejecutar el proyecto correctamente:
+
+1️⃣ **Abre una terminal y navega hasta la carpeta del proyecto:**
+   ```sh
+   cd mi-app
+   ```
+
+2️⃣ **Instala las dependencias con:**
+   ```sh
+   yarn install
+   ```
+
+3️⃣ **Inicia el proyecto con:**
+   ```sh
+   yarn start
+   ```
+
+Si aún tienes problemas, intenta limpiar la caché y reinstalar:
+   ```sh
+   rm -rf node_modules package-lock.json yarn.lock
+   yarn cache clean
+   yarn install
+   yarn start
+   ```
+
+¡Buena suerte! 🚀
